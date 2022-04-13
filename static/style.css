@@ -18,7 +18,7 @@
     src: URL("../fonts/Gilroy-Medium.ttf")  ;
   }
 body {
-    zoom: 64% ;
+    zoom: 69% ;
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 24px;
@@ -33,6 +33,13 @@ body {
   }
   .nav-item a:hover {
     color: #A6C643;
+  }
+  .user_access_interface{
+    margin-top:3em; 
+    background-image: url('./static/images/spiral.svg'); 
+    background-repeat: no-repeat; 
+    background-position: right bottom; 
+    height: 135vh;
   }
   header {
     padding: 50px 250px 0px 250px;
