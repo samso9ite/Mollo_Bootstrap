@@ -18,6 +18,7 @@
     src: URL("../fonts/Gilroy-Medium.ttf")  ;
   }
 body {
+    zoom : 64%;
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 24px;
