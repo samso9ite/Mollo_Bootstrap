@@ -18,7 +18,7 @@
     src: URL("../fonts/Gilroy-Medium.ttf")  ;
   }
 body {
-    zoom : 64%;
+    zoom: 75% ;
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 24px;
@@ -142,6 +142,7 @@ color: #433D4A;
 text-decoration: none;
 }
 
+/* Style all font awesome icons */
 .fa {
     padding: 10px;
     font-size: 20px;
@@ -153,6 +154,7 @@ text-decoration: none;
     background-color: #F5EBFF;
   }
   
+  /* Add a hover effect if you want */
   .fa:hover {
     background-color: #3C1D59;
     color: white;
@@ -161,7 +163,9 @@ text-decoration: none;
   .fa a {
       padding-left: 5em;
   }
-
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
   .fa-facebook{
     padding-left: 13px !important;
     padding-right: 13px !important;
@@ -173,4 +177,3 @@ text-decoration: none;
   border: 1px solid #ced4da
   
 }
-
