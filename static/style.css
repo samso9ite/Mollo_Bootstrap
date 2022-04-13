@@ -36,10 +36,10 @@ body {
   }
   .user_access_interface{
     margin-top:3em; 
-    background-image: url('./static/images/spiral.svg'); 
+    background-image: url('../static/images/spiral.svg'); 
     background-repeat: no-repeat; 
     background-position: right bottom; 
-    height: 135vh;
+    height: 117vh;
   }
   header {
     padding: 50px 250px 0px 250px;
