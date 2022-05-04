@@ -54,9 +54,11 @@ body {
     color: #A6C643;
 }
 
+.learnmore{
+  font-family: 'Gilroy-bold';
+}
 
-  
-  /* Add a color to the active/current link */
+/* Add a color to the active/current link */
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
@@ -72,25 +74,24 @@ body {
 
   .btn:hover {
     background-color: #A6C643;
-    color:#3C1D59
+    color:#074C43
   } 
   
-  /* Centered section inside the top navigation */
-  .topnav-centered  {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
+  .me-auto {
+    margin-right: 22em !important;
+}
+
   /* Right-aligned section inside the top navigation */
   .topnav-right {
     float: right;
   }
 
+  .green_gradient_background{
+    background: linear-gradient(104.1deg, #CDF7F1 0%, #DEFFFB 26.31%, #E2FFFB 60.87%, #DCFFFA 108.9%, #C3FFF7 132.34%);
+    
+  }
   .section-padding{
-    padding: 50px 250px 50px 250px;
+    padding: 70px 250px 70px 250px;
   }
 
   .form-page-padding{
@@ -99,7 +100,7 @@ body {
   }
 
   .general-button{
-      background-color: #3C1D59;
+      background-color: #074C43;
       color: white;
       padding: 10px 30px 10px 30px ;
       border-color: none;
@@ -107,16 +108,17 @@ body {
 
 
   .nav-item a {
-    color: #3C1D59;
-    padding-right: 60px;
+    color: #074C43;
+    padding-right: 50px !important;
   }
 
 .header{
     font-family: 'Gilroy-Bold';
     font-size: 36px;
     line-height: 40px;
-    color: #3C1D59;
+    color: #101010;
     letter-spacing: 0.01em;
+    /* height: 300px !important; */
 }
 
 .subheader{
@@ -124,11 +126,15 @@ body {
     font-size: 12px;
     line-height: 10px;
     text-align: center;
-    background-color: #F5EBFF;
+    background-color: #AEFFF4;
     border-radius: 5rem; 
-    color: #3C1D59; 
+    color: #074C43; 
     padding: 10px;
     margin-bottom: 15px;
+}
+
+.subheader btn:hover{
+  background-color: none !important;
 }
 
   .inner li{
@@ -139,14 +145,13 @@ body {
   }
 
 footer a{
-    color: black;
+    color: #074C43;
     font-family: 'Gilroy-Medium';
     font-weight: 600;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.01em;
-color: #433D4A;
-text-decoration: none;
+    text-decoration: none;
 }
 
 /* Style all font awesome icons */
@@ -163,7 +168,7 @@ text-decoration: none;
   
   /* Add a hover effect if you want */
   .fa:hover {
-    background-color: #3C1D59;
+    background-color: #074C43;
     color: white;
   }
   
